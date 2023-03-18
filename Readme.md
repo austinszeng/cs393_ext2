@@ -27,7 +27,9 @@ Limitations (also possible exercises):
 
  - see "TODO" in `cd` command - you can currently `cd` into a text
    file - whoops!
+    - Added structs::TypeIndicator as part of the resulting Vec in read_dir_inode function to identify and prevent `cd` into a text file
  - implement `cat` command to view text files
+    - Used read_dir_inode function to get file contents to print out
  - currently it only parses small directories, remove this limitation
  - implement `mkdir`
  - implement `link <source name> <destination path>` to create hard
